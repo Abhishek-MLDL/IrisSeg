@@ -2,7 +2,7 @@
 
 
 This is the matlab  implementation of the paper
-***IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images*** This code is provided for learning and benchmarking.
+***IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images*** This code is provided only for Research Purpose.
 Algorithms details are given in the paper.
 
 
@@ -51,11 +51,11 @@ in *irisseg_main.m*
 
 **Parameters**
 
-This version of Code has not been verified to work with different Values for
-Scale Parameter. Hence We do not recommend Changing value of Scale Parameter below
-Changing Scale may provide better time complexity. But we are not sure
-about segmentation or recognition accuracy
-
+Certain parameters of the code are customizable in *irisseg_main.m*, such as-
+1. Scale: This version of Code has not been verified to work with other Values for
+Scale Parameter. Hence We do not recommend Changing value of Scale Parameter.
+2. Size of Normalized Iris 
+3. Out Directory and Output Filename
 
 
 **Terms and Conditions**
@@ -71,8 +71,12 @@ Please remember to cite following reference [1] if you make use of this code in 
         International Conference on Biometrics (ICB), 2016
 
 
+
 ### Contact
-If you have any queries/suggestions regarding the code you can contact the authors at
+If you have queries/suggestions regarding the code you can contact at
 
 * abhishekg [at] cdac [dot] in
 * akanksha  [at] cdac [dot] in
+
+To get a copy of GroundTruth data, please contact-
+Dr. Fernando Alonso-Fernandez (http://islab.hh.se/mediawiki/Fernando_Alonso-Fernandez)
