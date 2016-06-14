@@ -2,12 +2,13 @@
 
 
 This is the matlab  implementation of the paper
-***IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images*** This code is provided only for Research Purpose.
+***IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images*** 
+This code is provided only for Research Purpose.
 Algorithms details are given in the paper.
 
 
 #### Prerequisites
-The code is tested on ***Matlab R2014b*** with *i5* processor and 4GB RAM.
+The code is tested on ***Matlab R2014b*** with *i5* processor and 4GB RAM with Windows OS.
 
 #### How to use this code
 
@@ -17,30 +18,30 @@ is to use the matlab function **irisseg_main** on the matlab command prompt
     >> irisseg_main(/path/to/image/file)
     >>
 
-This will create a folder named **output** if not already created and inside that
+Under default settings, this will create a folder named **output** if not already created and inside that
 four files will be created in the following format
 
-    iris_<filename>.jpg
-    irismask_<filename>.jpg
-    normalizediris_<filename>.jpg
-    normalizedirismask_<filename>.jpg
+    iris_<filename_with_extension>
+    irismask_<filename_with_extension>
+    normalizediris_<filename_with_extension>
+    normalizedirismask_<filename_with_extension>.jpg
 
 The details for the above files are as follows
 
-* **iris_filename.jpg** This file will be the same size as the input image and
+* **iris_filename** This file will be the same size as the input image and
 shows the segmented iris. Only iris pixels are shown and everything else is
 white(255,255,255)
 
-* **irismask_filename.jpg** This is the mask file for the iris segmentation with
+* **irismask_filename** This is the mask file for the iris segmentation with
 same size as the input file. All non-iris pixels are black and all the iris
 pixels are white.
 
-* **normalizediris_filename.jpg** This is the normalized iris segmented and its
+* **normalizediris_filename** This is the normalized iris segmented and its
 width is 512 pixels and the height is 64 pixels. The size is irresepective of
 the input image size. In this file all the iris-pixels are unchanged and the
 non-iris pixels are white.
 
-* **normalizedirismask_filename.jpg** This is the mask file for the normalized
+* **normalizedirismask_filename** This is the mask file for the normalized
 segmented iris. It is 512 pixels wide and 64 pixels height. The size is invariant
 of the input image and all the iris-pixels are black and the non-iris pixels are
 white.
@@ -55,7 +56,7 @@ Certain parameters of the code are customizable in *irisseg_main.m*, such as-
 1. Scale: This version of Code has not been verified to work with other Values for
 Scale Parameter. Hence We do not recommend Changing value of Scale Parameter.
 2. Size of Normalized Iris 
-3. Out Directory and Output Filename
+3. Output Directory and Output Filename
 
 
 **Terms and Conditions**
