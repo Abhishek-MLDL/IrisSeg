@@ -1,7 +1,7 @@
 % IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images
 % (C) Abhishek Gangwar, Akanksha Joshi, Ashutosh Singh, Alonso-Fernandez, Josef Bigun
 % Code URL- https://github.com/cdac-cvml/IrisSeg
-% For Code related Queries Contact: abhishekg@cdac.in, akanksha@cdac.in
+% For Code related Queries Contact: abhishekg@cdac.in, akanksha@cdac.in, ashutoshsingh@cdac.in
 % Date of current release: June 2016
 % (please check the URL above for more recent releases)
 
@@ -21,7 +21,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  Reference   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%% Please remember to cite following reference [1] if you make use of this code in any publication.
 %%%% [1] Abhishek Gangwar, Akanksha Joshi, Ashutosh Singh, Fernando Alonso-Fernandez and Josef Bigun,  
-%%%%     IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images, 
+%%%%     IrisSeg: A Fast and Robust Iris Segmentation Framework for Non-Ideal Iris Images,Â 
 %%%%     International Conference on Biometrics (ICB), 2016
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
