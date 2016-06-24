@@ -6,7 +6,7 @@
 % (please check the URL above for more recent releases)
 
 %%%% The software accepts an iris image as input, and outputs segmente image
-%%%% It is currently capable of handling images acquired both in near-infrared (NIR) only.
+%%%% It is currently capable of handling images acquired in near-infrared (NIR) only.
 
 %%%%  Certain parameters of the code are customizable, please refer README file included 
 %%%%  with the code for more information.
