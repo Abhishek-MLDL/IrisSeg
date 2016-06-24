@@ -55,11 +55,14 @@ in *irisseg_main.m*
 Certain parameters of the code are customizable in *irisseg_main.m*, such as-
 1. Scale: This version of Code has not been verified to work with other Values for
 Scale Parameter. Hence We do not recommend Changing value of Scale Parameter.
+
 2. Size of Normalized Iris 
+
 3. Output Directory and Output Filename
 
 
 **Terms and Conditions**
+
 This code is provided "as is", without any warranty, and for research/academic
 purposes only. By downloading the code, you agree with the terms and conditions.
 
