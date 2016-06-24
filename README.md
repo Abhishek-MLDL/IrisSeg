@@ -53,6 +53,7 @@ in *irisseg_main.m*
 **Parameters**
 
 Certain parameters of the code are customizable in *irisseg_main.m*, such as-
+
 1. Scale: This version of Code has not been verified to work with other Values for
 Scale Parameter. Hence We do not recommend Changing value of Scale Parameter.
 
