@@ -20,7 +20,7 @@ is to use the matlab script **irisseg_demo** after making required changes in it
     3. Set the correct image extension (e.g.'tiff', '.JPEG' etc. at line 40 in irisseg_demo.m)
 
 Under default settings, this will create a folder named **output** if not already created and inside that
-four files will be created in the following format
+four files corresponding to each input file will be created in the following format
 
     iris_<filename_with_extension>
     irismask_<filename_with_extension>
