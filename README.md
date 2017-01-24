@@ -13,10 +13,11 @@ The code is tested on ***Matlab R2014b*** with *i5* processor and 4GB RAM with W
 #### How to use this code
 
 If you want to see the complete cycle of the segmentation process the best way
-is to use the matlab function **irisseg_main** on the matlab command prompt
+is to use the matlab script **irisseg_demo** after making required changes in it- 
 
-    >> irisseg_main(/path/to/image/file)
-    >>
+    1. Set the input folder path (at line 33 in irisseg_demo.m)
+    2. Set the output folder (at line 34 in irisseg_demo.m)
+    3. Set the correct image extension (e.g.'tiff', '.JPEG' etc. at line 40 in irisseg_demo.m)
 
 Under default settings, this will create a folder named **output** if not already created and inside that
 four files will be created in the following format
@@ -24,7 +25,7 @@ four files will be created in the following format
     iris_<filename_with_extension>
     irismask_<filename_with_extension>
     normalizediris_<filename_with_extension>
-    normalizedirismask_<filename_with_extension>.jpg
+    normalizedirismask_<filename_with_extension>
 
 The details for the above files are as follows
 
