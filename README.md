@@ -83,7 +83,7 @@ If you have queries/suggestions regarding the code you can contact at
 
 * abhishekg [at] cdac [dot] in
 * akanksha  [at] cdac [dot] in
-* ashutoshsingh  [at] cdac [dot] in
+
 
 To get a copy of GroundTruth data, please contact-
 Dr. Fernando Alonso-Fernandez (http://islab.hh.se/mediawiki/Fernando_Alonso-Fernandez)
